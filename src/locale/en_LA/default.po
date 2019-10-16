@@ -1,0 +1,773 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2019-10-14 18:44+0000\n"
+"PO-Revision-Date: 2019-10-14 16:25-0400\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Poedit 2.2.4\n"
+"Last-Translator: \n"
+"Language: sr@latin\n"
+
+#: Controller/BillsController.php:57 Controller/BillsController.php:83
+msgid "The bill has been saved."
+msgstr "Quod legis quae servatae sunt."
+
+#: Controller/BillsController.php:61 Controller/BillsController.php:87
+msgid "The bill could not be saved. Please, try again."
+msgstr "Libellum de servatam esse non potuit. Quaero, iterum conare."
+
+#: Controller/BillsController.php:106
+msgid "The bill has been deleted."
+msgstr "Et deleta sunt legis."
+
+#: Controller/BillsController.php:108
+msgid "The bill could not be deleted. Please, try again."
+msgstr "Et delevit legis non poterat. Quaero, iterum conare."
+
+#: Controller/ChildrensController.php:80 Controller/ChildrensController.php:104
+msgid "The children has been saved."
+msgstr "Et filios quae servatae sunt."
+
+#: Controller/ChildrensController.php:83
+msgid "Impossible de sauvé votre enfant."
+msgstr "Non potest salvum facere puer tuus."
+
+#: Controller/ChildrensController.php:108
+msgid "The children could not be saved. Please, try again."
+msgstr "Filii non salvari. Quaero, iterum conare."
+
+#: Controller/ChildrensController.php:126
+msgid "The children has been deleted."
+msgstr "Filii deleta est."
+
+#: Controller/ChildrensController.php:128
+msgid "The children could not be deleted. Please, try again."
+msgstr "Filii non delebitur. Quaero, iterum conare."
+
+#: Controller/PaymentsController.php:57 Controller/PaymentsController.php:82
+msgid "The payment has been saved."
+msgstr "In solucionis quae servatae sunt."
+
+#: Controller/PaymentsController.php:61 Controller/PaymentsController.php:86
+msgid "The payment could not be saved. Please, try again."
+msgstr "Pretium non salvari. Quaero, iterum conare."
+
+#: Controller/PaymentsController.php:104
+msgid "The payment has been deleted."
+msgstr "Et mercedem deleta est."
+
+#: Controller/PaymentsController.php:106
+msgid "The payment could not be deleted. Please, try again."
+msgstr "Solucionis quod non deletum. Quaero, iterum conare."
+
+#: Controller/RefBillStatusController.php:54
+#: Controller/RefBillStatusController.php:78
+msgid "The ref bill status has been saved."
+msgstr "Libellum de ref status quae servatae sunt."
+
+#: Controller/RefBillStatusController.php:58
+#: Controller/RefBillStatusController.php:82
+msgid "The ref bill status could not be saved. Please, try again."
+msgstr ""
+"Libellum de ref status servatam esse non potuit. Quaero, iterum conare."
+
+#: Controller/RefBillStatusController.php:99
+msgid "The ref bill status has been deleted."
+msgstr "Libellum de ref status deleta est."
+
+#: Controller/RefBillStatusController.php:101
+msgid "The ref bill status could not be deleted. Please, try again."
+msgstr "Quod status legis non delevit ref. Quaero, iterum conare."
+
+#: Controller/UsersController.php:68 Controller/UsersController.php:92
+msgid "The user has been saved."
+msgstr "Quod usor servatae sunt."
+
+#: Controller/UsersController.php:72 Controller/UsersController.php:96
+msgid "The user could not be saved. Please, try again."
+msgstr "Usoris posse salvari. Quaero, iterum conare."
+
+#: Controller/UsersController.php:113
+msgid "The user has been deleted."
+msgstr "Quod usor deleti sunt."
+
+#: Controller/UsersController.php:115
+msgid "The user could not be deleted. Please, try again."
+msgstr "In user poterat delevit. Quaero, iterum conare."
+
+#: Template/Bills/add.ctp:9 Template/Bills/edit.ctp:9
+#: Template/Bills/index.ctp:9 Template/Bills/index.ctp:29
+#: Template/Bills/view.ctp:9 Template/Bills/view.ctp:55
+#: Template/Childrens/add.ctp:9 Template/Childrens/edit.ctp:9
+#: Template/Childrens/index.ctp:9 Template/Childrens/index.ctp:27
+#: Template/Childrens/view.ctp:9 Template/Payments/add.ctp:9
+#: Template/Payments/edit.ctp:9 Template/Payments/index.ctp:9
+#: Template/Payments/index.ctp:24 Template/Payments/view.ctp:9
+#: Template/RefBillStatus/add.ctp:9 Template/RefBillStatus/edit.ctp:9
+#: Template/RefBillStatus/index.ctp:9 Template/RefBillStatus/index.ctp:22
+#: Template/RefBillStatus/view.ctp:9 Template/RefBillStatus/view.ctp:40
+#: Template/Users/add.ctp:9 Template/Users/edit.ctp:9
+#: Template/Users/index.ctp:9 Template/Users/index.ctp:31
+#: Template/Users/view.ctp:9 Template/Users/view.ctp:70
+#: Template/Users/view.ctp:100
+msgid "Actions"
+msgstr "Actus"
+
+#: Template/Bills/add.ctp:10 Template/Bills/edit.ctp:16
+#: Template/Bills/view.ctp:12 Template/Payments/add.ctp:11
+#: Template/Payments/edit.ctp:17 Template/Payments/index.ctp:11
+#: Template/Payments/view.ctp:14 Template/RefBillStatus/add.ctp:11
+#: Template/RefBillStatus/edit.ctp:17 Template/RefBillStatus/index.ctp:11
+#: Template/RefBillStatus/view.ctp:14 Template/Users/add.ctp:11
+#: Template/Users/edit.ctp:17 Template/Users/index.ctp:11
+#: Template/Users/view.ctp:14
+msgid "List Bills"
+msgstr "List rogationibus"
+
+#: Template/Bills/add.ctp:11 Template/Bills/edit.ctp:17
+#: Template/Bills/index.ctp:11 Template/Bills/view.ctp:14
+#: Template/RefBillStatus/add.ctp:10 Template/RefBillStatus/edit.ctp:16
+#: Template/RefBillStatus/view.ctp:12
+msgid "List Ref Bill Status"
+msgstr "Status Bill List external link"
+
+#: Template/Bills/add.ctp:12 Template/Bills/edit.ctp:18
+#: Template/Bills/index.ctp:12 Template/Bills/view.ctp:15
+#: Template/RefBillStatus/index.ctp:10 Template/RefBillStatus/view.ctp:13
+msgid "New Ref Bill Status"
+msgstr "Status Bill Ref"
+
+#: Template/Bills/add.ctp:13 Template/Bills/edit.ctp:19
+#: Template/Bills/index.ctp:13 Template/Bills/view.ctp:16
+#: Template/Childrens/add.ctp:11 Template/Childrens/edit.ctp:17
+#: Template/Childrens/index.ctp:11 Template/Childrens/view.ctp:14
+#: Template/Users/add.ctp:10 Template/Users/edit.ctp:16
+#: Template/Users/view.ctp:12
+msgid "List Users"
+msgstr "Users List"
+
+#: Template/Bills/add.ctp:14 Template/Bills/edit.ctp:20
+#: Template/Bills/index.ctp:14 Template/Bills/view.ctp:17
+#: Template/Childrens/add.ctp:12 Template/Childrens/edit.ctp:18
+#: Template/Childrens/index.ctp:12 Template/Childrens/view.ctp:15
+#: Template/Users/index.ctp:10 Template/Users/view.ctp:13
+msgid "New User"
+msgstr "New User"
+
+#: Template/Bills/add.ctp:15 Template/Bills/edit.ctp:21
+#: Template/Bills/index.ctp:15 Template/Bills/view.ctp:18
+#: Template/Payments/add.ctp:10 Template/Payments/edit.ctp:16
+#: Template/Payments/view.ctp:12
+msgid "List Payments"
+msgstr "List liberate"
+
+#: Template/Bills/add.ctp:16 Template/Bills/edit.ctp:22
+#: Template/Bills/index.ctp:16 Template/Bills/view.ctp:19
+#: Template/Payments/index.ctp:10 Template/Payments/view.ctp:13
+msgid "New Payment"
+msgstr "Payment novum"
+
+#: Template/Bills/add.ctp:22
+msgid "Add Bill"
+msgstr "Bill addere"
+
+#: Template/Bills/add.ctp:30 Template/Bills/edit.ctp:36
+#: Template/Childrens/add.ctp:28 Template/Childrens/edit.ctp:34
+#: Template/Payments/add.ctp:25 Template/Payments/edit.ctp:31
+#: Template/RefBillStatus/add.ctp:23 Template/RefBillStatus/edit.ctp:29
+#: Template/Users/add.ctp:32 Template/Users/edit.ctp:38
+#: View/Helper/FormHelper.php:2029
+msgid "Submit"
+msgstr "Submit"
+
+#: Template/Bills/edit.ctp:11 Template/Bills/index.ctp:43
+#: Template/Bills/view.ctp:66 Template/Childrens/edit.ctp:11
+#: Template/Childrens/index.ctp:43 Template/Payments/edit.ctp:11
+#: Template/Payments/index.ctp:37 Template/RefBillStatus/edit.ctp:11
+#: Template/RefBillStatus/index.ctp:33 Template/RefBillStatus/view.ctp:52
+#: Template/Users/edit.ctp:11 Template/Users/index.ctp:49
+#: Template/Users/view.ctp:82 Template/Users/view.ctp:113
+msgid "Delete"
+msgstr "Delete"
+
+#: Template/Bills/edit.ctp:13 Template/Bills/index.ctp:43
+#: Template/Bills/view.ctp:11 Template/Bills/view.ctp:66
+#: Template/Childrens/edit.ctp:13 Template/Childrens/index.ctp:43
+#: Template/Childrens/view.ctp:11 Template/Payments/edit.ctp:13
+#: Template/Payments/index.ctp:37 Template/Payments/view.ctp:11
+#: Template/RefBillStatus/edit.ctp:13 Template/RefBillStatus/index.ctp:33
+#: Template/RefBillStatus/view.ctp:11 Template/RefBillStatus/view.ctp:52
+#: Template/Users/edit.ctp:13 Template/Users/index.ctp:49
+#: Template/Users/view.ctp:11 Template/Users/view.ctp:82
+#: Template/Users/view.ctp:113
+msgid "Are you sure you want to delete # {0}?"
+msgstr "Esne certus vos volo ut delete # {0}?"
+
+#: Template/Bills/edit.ctp:28 Template/Bills/view.ctp:10
+msgid "Edit Bill"
+msgstr "Recensere Bill"
+
+#: Template/Bills/index.ctp:10 Template/Bills/view.ctp:13
+#: Template/Payments/add.ctp:12 Template/Payments/edit.ctp:18
+#: Template/Payments/index.ctp:12 Template/Payments/view.ctp:15
+#: Template/RefBillStatus/add.ctp:12 Template/RefBillStatus/edit.ctp:18
+#: Template/RefBillStatus/index.ctp:12 Template/RefBillStatus/view.ctp:15
+#: Template/Users/add.ctp:12 Template/Users/edit.ctp:18
+#: Template/Users/index.ctp:12 Template/Users/view.ctp:15
+msgid "New Bill"
+msgstr "Bill novum"
+
+#: Template/Bills/index.ctp:20
+msgid "Bills"
+msgstr "Bills"
+
+#: Template/Bills/index.ctp:41 Template/Bills/view.ctp:64
+#: Template/Childrens/index.ctp:41 Template/Payments/index.ctp:35
+#: Template/RefBillStatus/index.ctp:31 Template/RefBillStatus/view.ctp:50
+#: Template/Users/index.ctp:47 Template/Users/view.ctp:80
+#: Template/Users/view.ctp:111 View/Helper/PaginatorHelper.php:1270
+msgid "View"
+msgstr "View"
+
+#: Template/Bills/index.ctp:42 Template/Bills/view.ctp:65
+#: Template/Childrens/index.ctp:42 Template/Payments/index.ctp:36
+#: Template/RefBillStatus/index.ctp:32 Template/RefBillStatus/view.ctp:51
+#: Template/Users/index.ctp:48 Template/Users/view.ctp:81
+#: Template/Users/view.ctp:112
+msgid "Edit"
+msgstr "Recensere"
+
+#: Template/Bills/index.ctp:51 Template/Childrens/index.ctp:51
+#: Template/Payments/index.ctp:45 Template/RefBillStatus/index.ctp:41
+#: Template/Users/index.ctp:57
+msgid "first"
+msgstr "primis"
+
+#: Template/Bills/index.ctp:52 Template/Childrens/index.ctp:52
+#: Template/Payments/index.ctp:46 Template/RefBillStatus/index.ctp:42
+#: Template/Users/index.ctp:58
+msgid "previous"
+msgstr "priorem"
+
+#: Template/Bills/index.ctp:54 Template/Childrens/index.ctp:54
+#: Template/Payments/index.ctp:48 Template/RefBillStatus/index.ctp:44
+#: Template/Users/index.ctp:60
+msgid "next"
+msgstr "deinde"
+
+#: Template/Bills/index.ctp:55 Template/Childrens/index.ctp:55
+#: Template/Payments/index.ctp:49 Template/RefBillStatus/index.ctp:45
+#: Template/Users/index.ctp:61
+msgid "last"
+msgstr "tandem"
+
+#: Template/Bills/index.ctp:57 Template/Childrens/index.ctp:57
+#: Template/Payments/index.ctp:51 Template/RefBillStatus/index.ctp:47
+#: Template/Users/index.ctp:63
+msgid ""
+"Page {{page}} of {{pages}}, showing {{current}} record(s) out of {{count}} "
+"total"
+msgstr ""
+"Page {{page}} ex {{pages}}, showing {{current}} record(s) ex {{count}} summa"
+
+#: Template/Bills/view.ctp:11
+msgid "Delete Bill"
+msgstr "Delere Bill"
+
+#: Template/Bills/view.ctp:26 Template/RefBillStatus/index.ctp:16
+msgid "Ref Bill Status"
+msgstr "Status Bill external link"
+
+#: Template/Bills/view.ctp:30 Template/Childrens/view.ctp:22
+msgid "User"
+msgstr "User"
+
+#: Template/Bills/view.ctp:34 Template/Bills/view.ctp:51
+#: Template/Childrens/view.ctp:38 Template/Payments/view.ctp:26
+#: Template/RefBillStatus/view.ctp:26 Template/RefBillStatus/view.ctp:35
+#: Template/Users/view.ctp:52 Template/Users/view.ctp:65
+#: Template/Users/view.ctp:94
+msgid "Id"
+msgstr "Id"
+
+#: Template/Bills/view.ctp:38 Template/RefBillStatus/view.ctp:38
+#: Template/Users/view.ctp:68
+msgid "Amount Due"
+msgstr "Amount debetur"
+
+#: Template/Bills/view.ctp:42 Template/Bills/view.ctp:54
+#: Template/Payments/view.ctp:34 Template/RefBillStatus/view.ctp:39
+#: Template/Users/view.ctp:69
+msgid "Amount Outstanding"
+msgstr "Moles Outstanding"
+
+#: Template/Bills/view.ctp:47
+msgid "Related Payments"
+msgstr "Related liberate"
+
+#: Template/Bills/view.ctp:52
+msgid "Bill Id"
+msgstr "Id legis"
+
+#: Template/Bills/view.ctp:53 Template/Payments/view.ctp:30
+msgid "Amount Paid"
+msgstr "Soluentibus"
+
+#: Template/Childrens/add.ctp:10 Template/Childrens/edit.ctp:16
+#: Template/Childrens/view.ctp:12 Template/Users/add.ctp:13
+#: Template/Users/edit.ctp:19 Template/Users/index.ctp:13
+#: Template/Users/view.ctp:16
+msgid "List Childrens"
+msgstr "Classical List"
+
+#: Template/Childrens/add.ctp:18
+msgid "Add Children"
+msgstr "Filii addere"
+
+#: Template/Childrens/edit.ctp:24 Template/Childrens/view.ctp:10
+msgid "Edit Children"
+msgstr "Recensere Liberi"
+
+#: Template/Childrens/index.ctp:10 Template/Childrens/view.ctp:13
+#: Template/Users/add.ctp:14 Template/Users/edit.ctp:20
+#: Template/Users/index.ctp:14 Template/Users/view.ctp:17
+msgid "New Children"
+msgstr "Filii novum"
+
+#: Template/Childrens/index.ctp:16
+msgid "Childrens"
+msgstr "Liberi"
+
+#: Template/Childrens/view.ctp:11
+msgid "Delete Children"
+msgstr "Filii delere"
+
+#: Template/Childrens/view.ctp:26 Template/Users/view.ctp:96
+msgid "Gender"
+msgstr "Genus"
+
+#: Template/Childrens/view.ctp:30 Template/Users/view.ctp:24
+#: Template/Users/view.ctp:97
+msgid "First Name"
+msgstr "Praenomen"
+
+#: Template/Childrens/view.ctp:34 Template/Users/view.ctp:28
+#: Template/Users/view.ctp:98
+msgid "Last Name"
+msgstr "Cognomen"
+
+#: Template/Childrens/view.ctp:42 Template/Users/view.ctp:99
+msgid "Age"
+msgstr "Age"
+
+#: Template/Childrens/view.ctp:46
+msgid "Image"
+msgstr "Image"
+
+#: Template/Layout/error.ctp:35 Template/Error/error400.ctp:36
+#: Template/Error/error500.ctp:41
+msgid "Error"
+msgstr "Error"
+
+#: Template/Layout/error.ctp:43
+msgid "Back"
+msgstr "Back"
+
+#: Template/Payments/add.ctp:18
+msgid "Add Payment"
+msgstr "Payment addere"
+
+#: Template/Payments/edit.ctp:24 Template/Payments/view.ctp:10
+msgid "Edit Payment"
+msgstr "Recensere Payment"
+
+#: Template/Payments/index.ctp:16
+msgid "Payments"
+msgstr "Liberate"
+
+#: Template/Payments/view.ctp:11
+msgid "Delete Payment"
+msgstr "Payment delere"
+
+#: Template/Payments/view.ctp:22
+msgid "Bill"
+msgstr "Bill"
+
+#: Template/RefBillStatus/add.ctp:18
+msgid "Add Ref Bill Status"
+msgstr "Status Bill addere external link"
+
+#: Template/RefBillStatus/edit.ctp:24 Template/RefBillStatus/view.ctp:10
+msgid "Edit Ref Bill Status"
+msgstr "Recensere Bill Status external link"
+
+#: Template/RefBillStatus/view.ctp:11
+msgid "Delete Ref Bill Status"
+msgstr "Delere Bill Status external link"
+
+#: Template/RefBillStatus/view.ctp:22
+msgid "Bill Status Description"
+msgstr "Status Bill Description"
+
+#: Template/RefBillStatus/view.ctp:31 Template/Users/view.ctp:61
+msgid "Related Bills"
+msgstr "Related rogationibus"
+
+#: Template/RefBillStatus/view.ctp:36 Template/Users/view.ctp:66
+msgid "Ref Bill Status Id"
+msgstr "Id Bill Status external link"
+
+#: Template/RefBillStatus/view.ctp:37 Template/Users/view.ctp:67
+#: Template/Users/view.ctp:95
+msgid "User Id"
+msgstr "Sed rutrum sapien id"
+
+#: Template/Users/add.ctp:20
+msgid "Add User"
+msgstr "User addere"
+
+#: Template/Users/edit.ctp:26 Template/Users/view.ctp:10
+msgid "Edit User"
+msgstr "User Edit"
+
+#: Template/Users/index.ctp:18
+msgid "Users"
+msgstr "Users"
+
+#: Template/Users/view.ctp:11
+msgid "Delete User"
+msgstr "User delere"
+
+#: Template/Users/view.ctp:32
+msgid "Address"
+msgstr "Oratio"
+
+#: Template/Users/view.ctp:36
+msgid "City"
+msgstr "Urbs"
+
+#: Template/Users/view.ctp:40
+msgid "Password"
+msgstr "Password"
+
+#: Template/Users/view.ctp:44
+msgid "Email"
+msgstr "Email"
+
+#: Template/Users/view.ctp:48
+msgid "Type"
+msgstr "Genus"
+
+#: Template/Users/view.ctp:56
+msgid "Verifié"
+msgstr "Verificatur"
+
+#: Template/Users/view.ctp:57
+msgid "Yes"
+msgstr "Ita"
+
+#: Template/Users/view.ctp:57
+msgid "No"
+msgstr "Nullum"
+
+#: Template/Users/view.ctp:90
+msgid "Related Childrens"
+msgstr "Related Classical"
+
+#: Template/Error/error400.ctp:37
+msgid "The requested address {0} was not found on this server."
+msgstr "Requisitum oratio {0} Non est inventus est in calculonis servi."
+
+#: Template/Error/error500.ctp:39
+msgid "An Internal Error Has Occurred"
+msgstr "An Error Has Occurred Internus"
+
+#: Controller/Component/AuthComponent.php:500
+msgid "You are not authorized to access that location."
+msgstr "Non enim auctoritate ad locum accedere."
+
+#: Controller/Component/CsrfComponent.php:182
+#: Http/Middleware/CsrfProtectionMiddleware.php:227
+msgid "Missing CSRF token cookie"
+msgstr "Absentis CSRF crustulum firmitatis indicium"
+
+#: Controller/Component/CsrfComponent.php:186
+#: Http/Middleware/CsrfProtectionMiddleware.php:231
+msgid "CSRF token mismatch."
+msgstr "CSRF firmitatis indicium mismatch."
+
+#: Error/ExceptionRenderer.php:301
+msgid "Not Found"
+msgstr "Non Inventum"
+
+#: Error/ExceptionRenderer.php:303
+msgid "An Internal Error Has Occurred."
+msgstr "Error internus accidit."
+
+#: Http/Response.php:2653
+msgid "The requested file contains `..` and will not be read."
+msgstr "Requisitum continet file: et `..`  non legitur."
+
+#: Http/Response.php:2674
+msgid "The requested file was not found"
+msgstr "Requisitum file non inveni"
+
+#: I18n/Number.php:90
+msgid "{0,number,#,###.##} KB"
+msgstr "{0,number,#,###.##} KB"
+
+#: I18n/Number.php:92
+msgid "{0,number,#,###.##} MB"
+msgstr "{0,number,#,###.##} MB"
+
+#: I18n/Number.php:94
+msgid "{0,number,#,###.##} GB"
+msgstr "{0,number,#,###.##} GB"
+
+#: I18n/Number.php:96
+msgid "{0,number,#,###.##} TB"
+msgstr "{0,number,#,###.##} TB"
+
+#: I18n/Number.php:88
+msgid "{0,number,integer} Byte"
+msgid_plural "{0,number,integer} Bytes"
+msgstr[0] "{0,number,integer} Byte"
+msgstr[1] "{0,number,integer} Bytes"
+msgstr[2] ""
+
+#: I18n/RelativeTimeFormatter.php:80
+msgid "{0} from now"
+msgstr "{0} from now"
+
+#: I18n/RelativeTimeFormatter.php:80
+msgid "{0} ago"
+msgstr "{0} ago"
+
+#: I18n/RelativeTimeFormatter.php:83
+msgid "{0} after"
+msgstr "{0} after"
+
+#: I18n/RelativeTimeFormatter.php:83
+msgid "{0} before"
+msgstr "{0} before"
+
+#: I18n/RelativeTimeFormatter.php:114
+msgid "just now"
+msgstr "just now"
+
+#: I18n/RelativeTimeFormatter.php:151
+msgid "about a second ago"
+msgstr "about a second ago"
+
+#: I18n/RelativeTimeFormatter.php:152
+msgid "about a minute ago"
+msgstr "about a minute ago"
+
+#: I18n/RelativeTimeFormatter.php:153
+msgid "about an hour ago"
+msgstr "about an hour ago"
+
+#: I18n/RelativeTimeFormatter.php:154 I18n/RelativeTimeFormatter.php:332
+msgid "about a day ago"
+msgstr "about a day ago"
+
+#: I18n/RelativeTimeFormatter.php:155 I18n/RelativeTimeFormatter.php:333
+msgid "about a week ago"
+msgstr "about a week ago"
+
+#: I18n/RelativeTimeFormatter.php:156 I18n/RelativeTimeFormatter.php:334
+msgid "about a month ago"
+msgstr "about a month ago"
+
+#: I18n/RelativeTimeFormatter.php:157 I18n/RelativeTimeFormatter.php:335
+msgid "about a year ago"
+msgstr "about a year ago"
+
+#: I18n/RelativeTimeFormatter.php:168
+msgid "in about a second"
+msgstr "in about a second"
+
+#: I18n/RelativeTimeFormatter.php:169
+msgid "in about a minute"
+msgstr "in about a minute"
+
+#: I18n/RelativeTimeFormatter.php:170
+msgid "in about an hour"
+msgstr "in about an hour"
+
+#: I18n/RelativeTimeFormatter.php:171 I18n/RelativeTimeFormatter.php:346
+msgid "in about a day"
+msgstr "in about a day"
+
+#: I18n/RelativeTimeFormatter.php:172 I18n/RelativeTimeFormatter.php:347
+msgid "in about a week"
+msgstr "in about a week"
+
+#: I18n/RelativeTimeFormatter.php:173 I18n/RelativeTimeFormatter.php:348
+msgid "in about a month"
+msgstr "in about a month"
+
+#: I18n/RelativeTimeFormatter.php:174 I18n/RelativeTimeFormatter.php:349
+msgid "in about a year"
+msgstr "in about a year"
+
+#: I18n/RelativeTimeFormatter.php:304
+msgid "today"
+msgstr "today"
+
+#: I18n/RelativeTimeFormatter.php:370
+msgid "%s ago"
+msgstr "%s ago"
+
+#: I18n/RelativeTimeFormatter.php:371
+msgid "on %s"
+msgstr "on %s"
+
+#: I18n/RelativeTimeFormatter.php:47 I18n/RelativeTimeFormatter.php:126
+#: I18n/RelativeTimeFormatter.php:316
+msgid "{0} year"
+msgid_plural "{0} years"
+msgstr[0] "{0} year"
+msgstr[1] "{0} years"
+msgstr[2] ""
+
+#: I18n/RelativeTimeFormatter.php:51 I18n/RelativeTimeFormatter.php:129
+#: I18n/RelativeTimeFormatter.php:319
+msgid "{0} month"
+msgid_plural "{0} months"
+msgstr[0] "{0} month"
+msgstr[1] "{0} months"
+msgstr[2] ""
+
+#: I18n/RelativeTimeFormatter.php:57 I18n/RelativeTimeFormatter.php:132
+#: I18n/RelativeTimeFormatter.php:322
+msgid "{0} week"
+msgid_plural "{0} weeks"
+msgstr[0] "{0} week"
+msgstr[1] "{0} weeks"
+msgstr[2] ""
+
+#: I18n/RelativeTimeFormatter.php:59 I18n/RelativeTimeFormatter.php:135
+#: I18n/RelativeTimeFormatter.php:325
+msgid "{0} day"
+msgid_plural "{0} days"
+msgstr[0] "{0} day"
+msgstr[1] "{0} days"
+msgstr[2] ""
+
+#: I18n/RelativeTimeFormatter.php:64 I18n/RelativeTimeFormatter.php:138
+msgid "{0} hour"
+msgid_plural "{0} hours"
+msgstr[0] "{0} hour"
+msgstr[1] "{0} hours"
+msgstr[2] ""
+
+#: I18n/RelativeTimeFormatter.php:68 I18n/RelativeTimeFormatter.php:141
+msgid "{0} minute"
+msgid_plural "{0} minutes"
+msgstr[0] "{0} minute"
+msgstr[1] "{0} minutes"
+msgstr[2] ""
+
+#: I18n/RelativeTimeFormatter.php:72 I18n/RelativeTimeFormatter.php:144
+msgid "{0} second"
+msgid_plural "{0} seconds"
+msgstr[0] "{0} second"
+msgstr[1] "{0} seconds"
+msgstr[2] ""
+
+#: ORM/RulesChecker.php:57
+msgid "This value is already in use"
+msgstr "Hoc valore iam in usum inductorum"
+
+#: ORM/RulesChecker.php:104
+msgid "This value does not exist"
+msgstr "Hoc valore non est"
+
+#: ORM/RulesChecker.php:128
+msgid "The count does not match {0}{1}"
+msgstr "Quod non congruit comitem {0} , {1}"
+
+#: Utility/Text.php:934
+msgid "and"
+msgstr "et"
+
+#: Validation/Validator.php:2436 View/Form/ArrayContext.php:226
+msgid "This field is required"
+msgstr "Hic ager requiritur"
+
+#: Validation/Validator.php:2458
+msgid "This field cannot be left empty"
+msgstr "Ager vacuus potest"
+
+#: Validation/Validator.php:2608
+msgid "The provided value is invalid"
+msgstr "De valore irritum provisum"
+
+#: View/Helper/FormHelper.php:1108
+msgid "Edit {0}"
+msgstr "Recensere {0}"
+
+#: View/Helper/FormHelper.php:1110
+msgid "New {0}"
+msgstr "Novum {0}"
+
+#: View/Helper/HtmlHelper.php:819
+msgid "Home"
+msgstr "Domum"
+
+#: View/Widget/DateTimeWidget.php:540
+msgid "January"
+msgstr "Ianuarii"
+
+#: View/Widget/DateTimeWidget.php:541
+msgid "February"
+msgstr "Februarius"
+
+#: View/Widget/DateTimeWidget.php:542
+msgid "March"
+msgstr "Martii"
+
+#: View/Widget/DateTimeWidget.php:543
+msgid "April"
+msgstr "Aprilis"
+
+#: View/Widget/DateTimeWidget.php:544
+msgid "May"
+msgstr "May"
+
+#: View/Widget/DateTimeWidget.php:545
+msgid "June"
+msgstr "Junius"
+
+#: View/Widget/DateTimeWidget.php:546
+msgid "July"
+msgstr "Iulii"
+
+#: View/Widget/DateTimeWidget.php:547
+msgid "August"
+msgstr "Augustus"
+
+#: View/Widget/DateTimeWidget.php:548
+msgid "September"
+msgstr "September"
+
+#: View/Widget/DateTimeWidget.php:549
+msgid "October"
+msgstr "Octobris"
+
+#: View/Widget/DateTimeWidget.php:550
+msgid "November"
+msgstr "November"
+
+#: View/Widget/DateTimeWidget.php:551
+msgid "December"
+msgstr "December"
