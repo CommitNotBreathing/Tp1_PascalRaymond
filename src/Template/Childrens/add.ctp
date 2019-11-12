@@ -4,6 +4,15 @@
  * @var \App\Model\Entity\Children $children
  */
 ?>
+<?php
+$urlToNationalitechildAutocompletedemoJson = $this->Url->build([
+    "controller" => "Nationalitechild",
+    "action" => "findNationalite",
+    "_ext" => "json"
+]);
+echo $this->Html->scriptBlock('var urlToAutocompleteAction = "' . $urlToNationalitechildAutocompletedemoJson . '";', ['block' => true]);
+echo $this->Html->script('Nationalitechild/autocompletedemo', ['block' => 'scriptBottom']);
+?>
 <nav class="large-3 medium-4 columns" id="actions-sidebar">
     <ul class="side-nav">
         <li class="heading"><?= __('Actions') ?></li>
@@ -18,7 +27,7 @@
         <legend><?= __('Add Children') ?></legend>
         <?php
             echo $this->Form->control('user_id', ['options' => $users]);
-            echo $this->Form->control('gender');
+            echo $this->Form->input('gender', ['id' => 'autocomplete']);
             echo $this->Form->control('first_name');
             echo $this->Form->control('last_name');
             echo $this->Form->control('age');

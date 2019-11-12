@@ -63,7 +63,7 @@ class ChildrensTable extends Table
 
         $validator
             ->scalar('gender')
-            ->maxLength('gender', 1)
+            ->maxLength('gender', 50)
             ->requirePresence('gender', 'create')
             ->notEmptyString('gender');
 
