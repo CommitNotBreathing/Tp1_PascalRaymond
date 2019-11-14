@@ -1,4 +1,13 @@
 <?php
+$urlToLinkedListFilter = $this->Url->build([
+    "controller" => "Villes",
+    "action" => "getByProvinces",
+    "_ext" => "json"
+]);
+echo $this->Html->scriptBlock('var urlToLinkedListFilter = "' . $urlToLinkedListFilter . '";', ['block' => true]);
+echo $this->Html->script('Childrens/add', ['block' => 'scriptBottom']);
+?>
+<?php
 /**
  * @var \App\View\AppView $this
  * @var \App\Model\Entity\Children $children
@@ -26,6 +35,8 @@ echo $this->Html->script('Nationalitechild/autocompletedemo', ['block' => 'scrip
     <fieldset>
         <legend><?= __('Add Children') ?></legend>
         <?php
+            echo $this->Form->control('province_id', ['options' => $provinces]);
+            echo $this->Form->control('ville_id', ['options' => $villes]);
             echo $this->Form->control('user_id', ['options' => $users]);
             echo $this->Form->input('gender', ['id' => 'autocomplete']);
             echo $this->Form->control('first_name');

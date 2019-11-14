@@ -4,21 +4,24 @@
  * @var \App\Model\Entity\Bill $bill
  */
 ?>
-<nav class="large-3 medium-4 columns" id="actions-sidebar">
-    <ul class="side-nav">
-        <li class="heading"><?= __('Actions') ?></li>
-        <li><?= $this->Html->link(__('Edit Bill'), ['action' => 'edit', $bill->id]) ?> </li>
-        <li><?= $this->Form->postLink(__('Delete Bill'), ['action' => 'delete', $bill->id], ['confirm' => __('Are you sure you want to delete # {0}?', $bill->id)]) ?> </li>
-        <li><?= $this->Html->link(__('List Bills'), ['action' => 'index']) ?> </li>
-        <li><?= $this->Html->link(__('New Bill'), ['action' => 'add']) ?> </li>
-        <li><?= $this->Html->link(__('List Ref Bill Status'), ['controller' => 'RefBillStatus', 'action' => 'index']) ?> </li>
-        <li><?= $this->Html->link(__('New Ref Bill Status'), ['controller' => 'RefBillStatus', 'action' => 'add']) ?> </li>
-        <li><?= $this->Html->link(__('List Users'), ['controller' => 'Users', 'action' => 'index']) ?> </li>
-        <li><?= $this->Html->link(__('New User'), ['controller' => 'Users', 'action' => 'add']) ?> </li>
-        <li><?= $this->Html->link(__('List Payments'), ['controller' => 'Payments', 'action' => 'index']) ?> </li>
-        <li><?= $this->Html->link(__('New Payment'), ['controller' => 'Payments', 'action' => 'add']) ?> </li>
-    </ul>
-</nav>
+<div class="dropdown show">
+    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Menu
+    </a>
+
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+        <li><?= $this->Html->link(__('Edit Bill'), ['action' => 'edit', $bill->id],array('class' => 'dropdown-item')) ?> </li>
+        <li><?= $this->Form->postLink(__('Delete Bill'), ['action' => 'delete', $bill->id], ['confirm' => __('Are you sure you want to delete # {0}?', $bill->id)],array('class' => 'dropdown-item')) ?> </li>
+        <li><?= $this->Html->link(__('List Bills'), ['action' => 'index'],array('class' => 'dropdown-item')) ?> </li>
+        <li><?= $this->Html->link(__('New Bill'), ['action' => 'add'],array('class' => 'dropdown-item')) ?> </li>
+        <li><?= $this->Html->link(__('List Ref Bill Status'), ['controller' => 'RefBillStatus', 'action' => 'index'],array('class' => 'dropdown-item')) ?> </li>
+        <li><?= $this->Html->link(__('New Ref Bill Status'), ['controller' => 'RefBillStatus', 'action' => 'add'],array('class' => 'dropdown-item')) ?> </li>
+        <li><?= $this->Html->link(__('List Users'), ['controller' => 'Users', 'action' => 'index'],array('class' => 'dropdown-item')) ?> </li>
+        <li><?= $this->Html->link(__('New User'), ['controller' => 'Users', 'action' => 'add'],array('class' => 'dropdown-item')) ?> </li>
+        <li><?= $this->Html->link(__('List Payments'), ['controller' => 'Payments', 'action' => 'index'],array('class' => 'dropdown-item')) ?> </li>
+        <li><?= $this->Html->link(__('New Payment'), ['controller' => 'Payments', 'action' => 'add'],array('class' => 'dropdown-item')) ?> </li>
+    </div>
+</div>
 <div class="bills view large-9 medium-8 columns content">
     <h3><?= h($bill->id) ?></h3>
     <table class="vertical-table">

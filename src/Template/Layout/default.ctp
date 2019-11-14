@@ -37,6 +37,8 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
     echo $this->Html->css([
         'base.css',
         'style.css',
+        'home.css',
+        'nav.css',
         'https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css',
         'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'
 
@@ -63,7 +65,38 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
 
 
 <body>
-    <nav class="top-bar expanded" data-topbar role="navigation">
+<nav class="navbar navbar-inverse" >
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="http://localhost/Tp1/users">Garderie de Pascal Raymond</a>
+        </div>
+        <ul  class="nav navbar-nav"">
+            <li class="active"><a <?php
+                $loguser = $this->request->session()->read('Auth.User');
+                if ($loguser) {
+                    $user = $loguser['email'];
+                    echo $this->Html->link($user . ' logout', ['controller' => 'Users', 'action' => 'logout']);
+                } else {
+                    echo $this->Html->link('login', ['controller' => 'Users', 'action' => 'login']);
+                }
+                ?></a></li>
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Languages
+                    <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a <?= $this->Html->link('Latin', ['action' => 'changeLang', 'en_LA'], ['escape' => false]) ?></a></li>
+                    <li><a <?= $this->Html->link('Français', ['action' => 'changeLang', 'en_FR'], ['escape' => false]) ?></a></li>
+                    <li><a <?= $this->Html->link('English', ['action' => 'changeLang', 'en_US'], ['escape' => false]) ?></a></li>
+                </ul>
+            </li>
+            <li><a target="_blank" href="https://book.cakephp.org/3.0/">Documentation</a></li>
+            <li><a target="_blank" href="https://api.cakephp.org/3.0/">API</a></li>
+            <li><a target="_blank" href="http://localhost/Tp1/pages/Apropos">A propos</a></li>
+
+        </ul>
+    </div>
+</nav>
+    <!--<nav class="top-bar expanded" data-topbar role="navigation">
         <ul class="title-area large-3 medium-4 columns">
             <li class="name">
                 <h1><a href=""><?= $this->fetch('title') ?></a></h1>
@@ -71,6 +104,15 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
         </ul>
         <div class="top-bar-section">
             <ul class="right">
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1
+                        <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Page 1-1</a></li>
+                        <li><a href="#">Page 1-2</a></li>
+                        <li><a href="#">Page 1-3</a></li>
+                    </ul>
+                </li>
                 <li>
                     <?= $this->Html->link('Latin', ['action' => 'changeLang', 'en_LA'], ['escape' => false]) ?>
                 </li>
@@ -94,7 +136,7 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
                 <li><a target="_blank" href="http://localhost/Tp1/pages/Apropos">A propos</a></li>
             </ul>
         </div>
-    </nav>
+    </nav>!-->
     <?= $this->Flash->render() ?>
     <div class="container clearfix">
         <?= $this->fetch('content') ?>

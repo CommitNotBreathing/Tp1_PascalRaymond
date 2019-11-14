@@ -41,6 +41,10 @@ class ChildrensTable extends Table
             'joinType' => 'INNER'
         ]);
 
+        $this->belongsTo('Villes', [
+            'foreignKey' => 'ville_id'
+        ]);
+
         $this->belongsToMany('Files', [
             'foreignKey' => 'image_id',
             'targetForeignKey' => 'file_id',

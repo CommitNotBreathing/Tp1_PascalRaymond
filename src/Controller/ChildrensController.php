@@ -84,8 +84,23 @@ class ChildrensController extends AppController
             }
             $this->Flash->error(__('Impossible de sauvé votre enfant.'));
         }
+
+        // Bâtir la liste des catégories
+        $this->loadModel('Provinces');
+        $provinces = $this->Provinces->find('list', ['limit' => 200]);
+
+        // Extraire le id de la première catégorie
+        $provinces = $provinces->toArray();
+        reset($provinces);
+        $province_id = key($provinces);
+
+        // Bâtir la liste des sous-catégories reliées à cette catégorie
+        $villes = $this->Childrens->Villes->find('list', [
+            'conditions' => ['Villes.province_id' => $province_id],
+        ]);
+
         $users = $this->Childrens->Users->find('list', ['limit' => 200]);
-        $this->set(compact('children', $children, 'users'));
+        $this->set(compact('children', $children, 'users', 'villes', 'provinces'));
     }
 
     /**
