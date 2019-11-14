@@ -37,7 +37,9 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
     echo $this->Html->css([
         'base.css',
         'style.css',
-        'https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css'
+        'https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css',
+        'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'
+
     ]);
     ?>
 
@@ -48,7 +50,11 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
     <?php
     echo $this->Html->script([
         'https://code.jquery.com/jquery-1.12.4.js',
-        'https://code.jquery.com/ui/1.12.1/jquery-ui.js'
+        'https://code.jquery.com/ui/1.12.1/jquery-ui.js',
+        //'https://code.jquery.com/jquery-3.3.1.slim.min.js',
+        'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js',
+        'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js'
+
     ], ['block' => 'scriptLibraries']
     );
     ?>

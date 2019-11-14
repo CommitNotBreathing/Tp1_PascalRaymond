@@ -3,19 +3,24 @@
  * @var \App\View\AppView $this
  * @var \App\Model\Entity\Bill $bill
  */
+
 ?>
-<nav class="large-3 medium-4 columns" id="actions-sidebar">
-    <ul class="side-nav">
-        <li class="heading"><?= __('Actions') ?></li>
-        <li><?= $this->Html->link(__('List Bills'), ['action' => 'index']) ?></li>
-        <li><?= $this->Html->link(__('List Ref Bill Status'), ['controller' => 'RefBillStatus', 'action' => 'index']) ?></li>
-        <li><?= $this->Html->link(__('New Ref Bill Status'), ['controller' => 'RefBillStatus', 'action' => 'add']) ?></li>
-        <li><?= $this->Html->link(__('List Users'), ['controller' => 'Users', 'action' => 'index']) ?></li>
-        <li><?= $this->Html->link(__('New User'), ['controller' => 'Users', 'action' => 'add']) ?></li>
-        <li><?= $this->Html->link(__('List Payments'), ['controller' => 'Payments', 'action' => 'index']) ?></li>
-        <li><?= $this->Html->link(__('New Payment'), ['controller' => 'Payments', 'action' => 'add']) ?></li>
-    </ul>
-</nav>
+<div class="dropdown show">
+    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Dropdown link
+    </a>
+
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+
+        <a><?= $this->Html->link(__('List Bills'), ['action' => 'index'],array('class' => 'dropdown-item')) ?></a>
+        <a><?= $this->Html->link(__('List Ref Bill Status'), ['controller' => 'RefBillStatus', 'action' => 'index'],array('class' => 'dropdown-item')) ?></a>
+        <a><?= $this->Html->link(__('New Ref Bill Status'), ['controller' => 'RefBillStatus', 'action' => 'add'],array('class' => 'dropdown-item')) ?></a>
+        <a><?= $this->Html->link(__('List Users'), ['controller' => 'Users', 'action' => 'index'],array('class' => 'dropdown-item')) ?></a>
+        <a><?= $this->Html->link(__('New User'), ['controller' => 'Users', 'action' => 'add'],array('class' => 'dropdown-item')) ?></a>
+        <a><?= $this->Html->link(__('List Payments'), ['controller' => 'Payments', 'action' => 'index'],array('class' => 'dropdown-item')) ?></a>
+        <a><?= $this->Html->link(__('New Payment'), ['controller' => 'Payments', 'action' => 'add'], array('class' => 'dropdown-item')) ?></a>
+    </div>
+</div>
 <div class="bills form large-9 medium-8 columns content">
     <?= $this->Form->create($bill) ?>
     <fieldset>
