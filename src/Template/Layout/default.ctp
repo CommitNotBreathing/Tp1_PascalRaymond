@@ -40,7 +40,9 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
         'home.css',
         'nav.css',
         'https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css',
-        'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'
+        'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css',
+        'https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css',
+        'http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'
 
     ]);
     ?>

@@ -43,8 +43,8 @@ class ChildrensController extends AppController
             'contain' => ['Users']
         ];
         $childrens = $this->paginate($this->Childrens);
-
-        $this->set(compact('childrens'));
+        $refBillStatus = $this->RefBillStatus->find('list', ['limit' => 200]);
+        $this->set(compact('childrens','refBillStatuss'));
     }
 
     /**
@@ -60,6 +60,7 @@ class ChildrensController extends AppController
             'contain' => ['Users']
 
         ]);
+
 
         $this->set('children', $childrens);
 
